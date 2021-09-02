@@ -1,5 +1,7 @@
 package leetcode
 
+// 两数之和
+
 //暴力求解
 func TwoSum(nums []int, target int) []int {
 	for i, x := range nums {
