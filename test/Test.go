@@ -20,3 +20,12 @@ func ContainsDuplicateTest() {
 
 	fmt.Println(d, e)
 }
+func MaxSubArrayTest() {
+	f := leetcode.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4})
+
+	fmt.Println(f)
+}
+func PlusOneTest() {
+	g := leetcode.PlusOne([]int{9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9})
+	fmt.Println(g)
+}
